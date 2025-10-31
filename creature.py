@@ -59,3 +59,23 @@ class Creature: # parent class for all creatures
                 del food_type[closest_index]
         else:
             action = 1
+
+    def update(self, screen):
+        screen_width, screen_height = screen.get_size()
+        #self.food(game.plants)
+        if self.action == 0:
+            self.pause()
+        elif self.action == 1:
+            self.wander()
+        
+        if self.posx < 0:
+            self.posx = 0
+        if self.posx > screen_width - self.size:
+            self.posx = screen_width - self.size
+
+        if self.posy < 0:
+            self.posy = 0
+        if self.posy > screen_height - self.size:
+            self.posy = screen_height - self.size
+
+        screen.blit(self.surf, (self.posx,self.posy)) # might need to return screen
