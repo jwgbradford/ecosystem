@@ -1,0 +1,9 @@
+LIST OF FUTURE THINGS TO ADD, IN ORDER PROBABLY MAYBE
+
+
+
+reproduction
+predator creature
+clicking on a creature to check its vitals and stuff
+    perhaps randomly generated names (for fun) when like.. traits are added so you can see the parents of the creature and stuff
+        generated with (consonant(s))+(vowel(s))+(suffix) eg gl+o+by or d+oa+xic (random examples)
